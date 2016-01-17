@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SampleMultiTypeListView</string>
+    <string name="msg">say</string>
+    <string name="date">date</string>
+    <string name="btn_send">Send</string>
+    <string name="radio_charles">Charles</string>
+    <string name="radio_johnson">Johnson</string>
+    <string name="radio_date">Date</string>
+</resources>
