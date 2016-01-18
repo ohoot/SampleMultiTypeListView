@@ -8,5 +8,6 @@
         android:layout_height="wrap_content"
         android:text="@string/date"
         android:id="@+id/text_message"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>

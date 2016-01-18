@@ -18,5 +18,8 @@
         android:id="@+id/text_message"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/image_icon"
-        android:layout_toStartOf="@+id/image_icon" />
+        android:layout_toStartOf="@+id/image_icon"
+        android:background="@drawable/send9"
+        android:layout_marginRight="@dimen/msg_margin"
+        android:paddingLeft="@dimen/msg_padding_left" />
 </RelativeLayout>

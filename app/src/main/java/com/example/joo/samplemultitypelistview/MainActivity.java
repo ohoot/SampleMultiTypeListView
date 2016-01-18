@@ -38,18 +38,16 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.radio_johnson :
                         ReceiveData rd = new ReceiveData();
                         rd.message = editText_msg.getText().toString();
-                        rd.iconId = R.mipmap.ic_launcher;
+                        rd.iconId = R.drawable.johnson;
                         cAdapter.add(rd);
                         break;
-
 
                     case R.id.radio_charles :
                         SendData sd = new SendData();
                         sd.message = editText_msg.getText().toString();
-                        sd.iconId = R.mipmap.ic_launcher;
+                        sd.iconId = R.drawable.charles;
                         cAdapter.add(sd);
                         break;
-
 
                     case R.id.radio_date :
                         default:
@@ -58,8 +56,7 @@ public class MainActivity extends AppCompatActivity {
                             cAdapter.add(dd);
                             break;
                 }
-
-                editText_msg.getText().toString();
+                editText_msg.setText("");
             }
         });
     }

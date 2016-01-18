@@ -12,5 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/msg"
-        android:id="@+id/text_message" />
+        android:id="@+id/text_message"
+        android:layout_marginLeft="@dimen/msg_margin"
+        android:background="@drawable/receive9"
+        android:paddingLeft="@dimen/msg_padding_left" />
 </LinearLayout>
