@@ -35,7 +35,8 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_send"
             android:id="@+id/btn_send"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector" />
     </LinearLayout>
 
     <RadioGroup
