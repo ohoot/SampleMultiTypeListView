@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                             break;
                 }
                 editText_msg.setText("");
+                messageView.smoothScrollToPosition(cAdapter.getCount() - 1);
             }
         });
     }
