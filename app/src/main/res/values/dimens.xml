@@ -7,4 +7,5 @@
     <dimen name="listview_height">300dp</dimen>
     <dimen name="msg_margin">20dp</dimen>
     <dimen name="msg_padding_left">3dp</dimen>
+    <dimen name="msg_padding_right">7dp</dimen>
 </resources>
