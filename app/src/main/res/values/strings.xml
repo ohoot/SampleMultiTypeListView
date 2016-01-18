@@ -6,4 +6,5 @@
     <string name="radio_charles">Charles</string>
     <string name="radio_johnson">Johnson</string>
     <string name="radio_date">Date</string>
+    <string name="btn_clear">Clear</string>
 </resources>

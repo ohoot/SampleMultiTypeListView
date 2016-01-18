@@ -4,4 +4,5 @@
     <string name="radio_charles">찰스</string>
     <string name="radio_johnson">존슨</string>
     <string name="radio_date">날짜</string>
+    <string name="btn_clear">삭제</string>
 </resources>

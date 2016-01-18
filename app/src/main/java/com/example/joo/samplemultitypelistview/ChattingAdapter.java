@@ -91,4 +91,9 @@ public class ChattingAdapter extends BaseAdapter {
             return TYPE_DATE;
         }
     }
+
+    public void clearMsg() {
+        items.clear();
+        notifyDataSetChanged();
+    }
 }
