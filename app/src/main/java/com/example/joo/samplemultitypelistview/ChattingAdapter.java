@@ -20,6 +20,11 @@ public class ChattingAdapter extends BaseAdapter {
         notifyDataSetChanged();
     }
 
+    public void clearMsg() {
+        items.clear();
+        notifyDataSetChanged();
+    }
+
     ArrayList<ChattingData> items = new ArrayList<ChattingData>();
 
     @Override
@@ -90,10 +95,5 @@ public class ChattingAdapter extends BaseAdapter {
         } else {
             return TYPE_DATE;
         }
-    }
-
-    public void clearMsg() {
-        items.clear();
-        notifyDataSetChanged();
     }
 }

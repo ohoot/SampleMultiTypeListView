@@ -24,12 +24,21 @@ public class MainActivity extends AppCompatActivity {
 
         messageView = (ListView) findViewById(R.id.listView);
         editText_msg = (EditText) findViewById(R.id.editText_msg);
-        btn = (Button) findViewById(R.id.btn_send);
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
 
         final ChattingAdapter cAdapter = new ChattingAdapter();
         messageView.setAdapter(cAdapter);
 
+        btn = (Button) findViewById(R.id.btn_clear);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cAdapter.clearMsg();
+                editText_msg.setText("");
+            }
+        });
+
+        btn = (Button) findViewById(R.id.btn_send);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,15 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 editText_msg.setText("");
                 messageView.smoothScrollToPosition(cAdapter.getCount() - 1);
-            }
-        });
-
-        btn = (Button) findViewById(R.id.btn_clear);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cAdapter.clearMsg();
-                editText_msg.setText("");
             }
         });
     }
